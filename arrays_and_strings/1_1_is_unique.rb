@@ -5,7 +5,7 @@ def is_unique(string)
     map = {}
     string.each_char do |c|
         if map.has_key?(c)
-            return false
+            return false        
         else
             map[c] = 1
         end
